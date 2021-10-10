@@ -41,10 +41,10 @@ class AddTestCase(unittest.TestCase):
         print("md.multi(1,2),1+2")
 
 
-# sut = unittest.TestSuite()
+sut = unittest.TestSuite()
 
-# sut.addTest(unittest.makeSuite(AddTestCase))
+sut.addTest(unittest.makeSuite(AddTestCase))
 
-# run = BeautifulReport.BeautifulReport(sut)
+run = BeautifulReport.BeautifulReport(sut)
 
-# run.report(filename="./test.html",description="add单元测试")
+run.report(filename="./test.html",description="add单元测试")

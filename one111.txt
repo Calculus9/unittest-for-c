@@ -21,8 +21,7 @@ ID n
 ; ;
 ID n
 = =
-Num 0
-Num 12345
+Num 123450
 ; ;
 for for
 ( (

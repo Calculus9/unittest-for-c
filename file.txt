@@ -6,7 +6,7 @@ int A$@;
 int 2a;
 int a2;
 read n;
-n = 012345;
+n = 123450;
 for (i=1;i<=n; i= i+1)
 { 
 abc=abc+i; }if(i!=n) n = n+i;

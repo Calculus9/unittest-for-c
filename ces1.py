@@ -5,8 +5,8 @@ import cffi
 
 ffi = cffi.FFI()  # 生成cffi实例
 
-code_def = open(("test.h")).read()
-code_source = open(("test.cpp"),encoding="utf-8").read()
+code_def = open(("add.h")).read()
+code_source = open(("test1.cpp"),encoding="utf-8").read()
 # 函数声明
 ffi.cdef(code_def)
 # 函数定义
